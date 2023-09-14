@@ -1281,6 +1281,8 @@ i {
 .first-half {
     display: flex;
     gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
 }
 @media(min-width:1100px) {
     .menu {
@@ -1691,4 +1693,9 @@ i.fa {
 
 .navbar-brand p {
     all: unset;
+}
+
+.brand-desk img, .brand-desk p {
+    height: 7rem;
+    font-size: 2rem;
 }
