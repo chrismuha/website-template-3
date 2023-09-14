@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta version="2">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -21,6 +20,7 @@
     <!-- <meta name="msapplication-config" content="public/icons/browserconfig.xml"> -->
     <meta name="theme-color" content="#ffffff">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link href="public/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="public/css/styles.css">
@@ -41,22 +41,50 @@
             content: 'Contact Us';
             color: red;
         }
+
+        /*change hover color of nav pages links*/
+        .menu-main a:hover {
+            color: rgb(187, 187, 196) !important;
+        }
     </style>
 </head>
 <body>
 
 <div id="preloader">
-    <img src="public/img/" alt="Insert Loading logo">
+    <!-- unhide the code below to specify splash logo -->
+    <!-- <img src="public/img/" alt="Insert Loading logo"> -->
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-dark nav-mob scrollclick" id="nav">
+<nav class="navbar navbar-expand-lg navbar-color nav-mob scrollclick" id="nav">
     <div class="container-fluid" id="navContainer">
 
-        <div class="brand-desk">
-            <a class="navbar-brand" href="index.html" target="_self">
-                <img src="" alt="Insert Logo">
-            </a>
+        <div class="first-half">
+            <div class="brand-desk">
+                <a class="navbar-brand" href="index.html" target="_self">
+                    <!--once you have your img ready, delete the paragraph text, and unhide img-->
+                    <p>Insert Brand Logo</p>
+                    <!-- <img src="insert brand logo path link">  -->
+                </a>
+            </div>
+            <div class="hide-menu a-nav-toggle"></div>
+    
+            <div class="menu">
+    
+              <nav class="menu-main" id="accordion">
+                <ul id="menuMain" class="navbar-nav d-flex flex-column ms-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" target="_self">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" target="_self">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="members.html" target="_self">MEMBERS DIRECTORY</a>
+                    </li>
+                  </ul>
+              </nav>
         </div>
+
 
         <button class="nav-toggle-btn a-nav-toggle">
             <span class="nav-toggle">
@@ -65,28 +93,14 @@
             </span>
         </button>
 
-        <a class="navbar-brand brand-mob" href="index.html" target="_self">
-            <img src="insert brand logo path link" alt="insert brand logo"> 
-        </a>
+        
 
-        <div class="hide-menu a-nav-toggle"></div>
-
-        <div class="menu">
-
-          <nav class="menu-main" id="accordion">
-            <ul id="menuMain" class="navbar-nav d-flex flex-column ms-3">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html" target="_self">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="contact.html" target="_self">CONTACT US</a>
-                </li>
-              </ul>
-          </nav>
+        
         
         </div>
     </div>
 </nav>
+
 <div class="news-banner">
     <div id="breaking-news-container">
         <div id="breaking-news-colour" class="slideup animated">  
@@ -109,17 +123,43 @@
 
 <!--normal text header below-->
 <div class="header">
+    <!--change color of the page header by replacing unset value below-->
     <h1 class="fw-bold title-bg-black" style="color: unset;">CONTACT US</h1>
 </div>
+
+<div class="review-slider">
+    <p>SLIDER NAME</p>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <p>Insert image</p>
+            </div>
+            <div class="swiper-slide">
+                <p>Insert image</p>
+            </div>
+            <div class="swiper-slide">
+                <p>Insert image</p>
+            </div>
+            <div class="swiper-slide">
+                <p>Insert image</p>
+            </div>
+        </div>
+    
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    </div>
+
 <div class="text-center">
     <div class="buttons-section-index">
     <div class="buttons-ver-hor">
     <a  class="btn" href="" rel="nofollow"><i class="fa fa-shopping-cart"></i> PURCHASE MERCHANDISE
     </a>
-    <a  class="btn" href="" rel="nofollow">DONATION
+    <a  class="btn" href="" rel="nofollow"><i class="fa fa-money"></i> DONATION
     </a>
     </div>
-    <a  class="btn" href="" rel="nofollow">PURCHASE GIFT CARDS
+    <a  class="btn" href="" rel="nofollow"><i class="fa fa-credit-card-alt"></i> PURCHASE GIFT CARDS
     </a>
     </div>
 </div>
@@ -166,6 +206,16 @@
         nonce="y6OzJpbr"></script>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <script src="public/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      loop: true
+    });
+  </script>
 </body>
 </html>
