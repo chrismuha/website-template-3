@@ -1572,10 +1572,12 @@ html {
     right: 0;
     width: 100vw;
     text-align: right;
+    padding-left: 40vw;
 }
 
 .breaking-news-title {
     background-color: #33a532;
+    color: white;
     display: block;
     height: 30px;
     width: fit-content;
@@ -1584,11 +1586,25 @@ html {
     position: absolute;
     top: 0px;
     margin-top: 0px;
-    margin-left: 20px;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     z-index: 10;
     font-weight: 900;
+    margin-left: 40vw;
+}
+@media screen and (max-width: 650px) {
+    .breaking-news-title {
+        margin-left: 20vw;
+    }
+    .marquee {
+        animation: 5s;
+    }
+}
+@media screen and (max-width: 500px) {
+    .breaking-news-title {
+        margin-left: 15vw;
+    }
 }
 .breaking-news-title:before {
     content: "";
@@ -1626,10 +1642,11 @@ html {
     overflow: hidden;
     position: absolute;
     width: 100vw;
+    
 }
 #breaking-news-container:before {
     content: "";
-    width: 100px;
+    width: 40vw;
     height: 30px;
     background-color: #0f398b;
     position: absolute;
@@ -1703,4 +1720,9 @@ i.fa {
 
 .navbar {
     border: 1px solid lime !important;    
+    background-color: black; 
 }
+/*HAMBURGER MENU BACKGROUND COLOR*/
+/* .nav-toggle-btn {
+    background-color: #000;
+} */
