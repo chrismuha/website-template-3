@@ -1506,7 +1506,7 @@ html {
 
 .location {
     width: fit-content;
-    margin: auto 2rem;
+    margin: auto;
 }
 }
 
@@ -1578,7 +1578,7 @@ html {
     background-color: #33a532;
     display: block;
     height: 30px;
-    width: 90px;
+    width: fit-content;
     font-family: arial;
     font-size: 11px;
     position: absolute;
@@ -1588,6 +1588,7 @@ html {
     padding-top: 10px;
     padding-left: 10px;
     z-index: 10;
+    font-weight: 900;
 }
 .breaking-news-title:before {
     content: "";
@@ -1697,5 +1698,9 @@ i.fa {
 
 .brand-desk img, .brand-desk p {
     height: 7rem;
-    font-size: 2rem;
+    font-size: 1rem;
+}
+
+.navbar {
+    border: 1px solid lime !important;    
 }
