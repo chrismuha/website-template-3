@@ -1577,6 +1577,9 @@ html {
     text-align: right;
     padding-left: 40vw;
 }
+.breaking-news-headline:hover {
+    color: #33a532;
+}
 
 .breaking-news-title {
     background-color: #33a532;
