@@ -1405,10 +1405,11 @@ i {
 
 .review-slider .swiper-slide {
     padding: 0 5rem;
-    text-align: left;
+    text-align: center;
 } 
 .review-slider img {
     width: 90%;
+    margin: auto;
 }
 .review-slider > p{
     font-size: 22px;
