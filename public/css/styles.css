@@ -1719,3 +1719,7 @@ i.fa {
 /* .nav-toggle-btn {
     background-color: #000;
 } */
+
+.navbar-brand p {
+    color: white;
+}
