@@ -1712,9 +1712,22 @@ i.fa {
 }
 
 .navbar {
-    border: 1px solid lime !important;    
-    background-color: black; 
+    border: 1px solid lime !important;   
+    background-color: black;
+    width: 99.7%;
+    margin: auto;
 }
+@media screen and (max-width: 450px) {
+    .navbar {
+        width: 99.7%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .menu_ {
+        border-bottom: 1px solid lime;
+    }
+}
+
 /*HAMBURGER MENU BACKGROUND COLOR*/
 /* .nav-toggle-btn {
     background-color: #000;
