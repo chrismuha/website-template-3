@@ -1482,7 +1482,7 @@ html {
     font-size: 22px;
 }
 
-.btn {
+.btn-top {
     font-family: Arial; /*this changes font*/
     font-size: 14px; /*this changes font size*/
     background-color: #228b22; /*this changes button color*/
@@ -1493,9 +1493,10 @@ html {
     text-decoration: none;
     border-radius: 36pt;
     margin-bottom: 12pt;
+    font-weight: bold;
 }
 
-.btn:hover {
+.btn-top:hover {
     background-color: #014421;
     opacity: 1;
     color: #fff;
@@ -1735,4 +1736,40 @@ i.fa {
 
 .navbar-brand p {
     color: white;
+}
+
+.links-vertical {
+    flex-direction: row;
+    gap: 3pt;
+}
+
+.btn {
+    font-family: Arial;
+    font-size: 14px;
+    background-color: #40c53a;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #4db748;opacity: 1;color: #fff;
+}
+.e_mail_top {
+    font-family: Arial;
+    font-size: 14px;
+    background-color: #00aeff !important;
+    color: #FFFFFF !important;
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+    .e_mail_top:hover {
+    background-color: #1484b8 !important;
+    opacity: 1 !important;
 }
