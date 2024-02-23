@@ -255,25 +255,25 @@ font-weight:500 !important;
 }
 
 .btn-success {
-    background-color: #32CD32;
-    border-color: #32CD32;
+    background-color: #32cd32;
+    border-color: #32cd32;
 }
 
 .btn-success:hover, .btn-success:focus {
-    outline-color: #79EF79;
-    background-color: #79EF79;
-    border-color: #79EF79;
+    outline-color: #79ef79;
+    background-color: #79ef79;
+    border-color: #79ef79;
 }
 
 .btn-primary {
-    background-color: #00BFFF;
-    border-color: #00BFFF;
+    background-color: #00bfff;
+    border-color: #00bfff;
 }
 
 .btn-primary:hover, .btn-success:focus {
-    outline-color: #6BCDEF;
-    background-color: #6BCDEF;
-    border-color: #6BCDEF;
+    outline-color: #6bcdef;
+    background-color: #6bcdef;
+    border-color: #6bcdef;
 }
 
 .footer-links > div {
@@ -323,13 +323,13 @@ main.container {
 }
 
 .e_mail:hover {
-    background-color: #187BCD !important;
+    background-color: #187bcd !important;
     opacity: 1 !important;
-    color: #fff !important;
+    color: white !important;
 }
 
 .btn:hover {
-background-color: #0B6623 !important; opacity: 1 !important; color: #fff !important;
+background-color: #0b6623 !important; opacity: 1 !important; color: white !important;
 }
 
 .icon-button {
@@ -532,7 +532,7 @@ body :not(.dark-theme) .text-grn
     width: 100%;
     border-radius: 3px;
     height: 3px;
-    background: #fff;
+    background: white;
     transition: all .3s;
     position: relative;
 }
@@ -624,7 +624,7 @@ body :not(.dark-theme) .text-grn
     left: 0;
     bottom: 0;
     z-index: 120;
-    background: #000;
+    background: black;
     max-width: 100%;
     width: 100%;
     padding: 63pt 28.5pt 50.25pt;
@@ -756,7 +756,7 @@ body :not(.dark-theme) .text-grn
 
 .menu-main a,
 .menu-main a:hover {
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
@@ -989,7 +989,7 @@ i {
 }
 
 .nav-item .active:hover {
-    color: #fff !important;
+    color: white !important;
 }
 
 .menu {
@@ -1363,7 +1363,7 @@ i {
 } */
 
 .dark-theme .dBDXpf, .dark-theme .kdDwXd, .dark-theme .huflDf, .dark-theme .hlUNdy, .dark-theme .fdSgyg, .dark-theme .jgvdLy, .dark-theme .kEsJBd, .dark-theme .gARbBw, .dark-theme .gBUraK {
-    color: #fff !important; 
+    color: white !important; 
 }
 
 .dark-theme .iuBYbv {
@@ -1486,10 +1486,10 @@ html {
 }
 
 .btn-top {
-    font-family: Arial; /*this changes font*/
-    font-size: 14px; /*this changes font size*/
-    background-color: #228b22; /*this changes button color*/
-    color: #FFFFFF; /*this changes text color*/
+    font-family: Arial;
+    font-size: 14px;
+    background-color: #228b22;
+    color: white;
     border: none;
     padding: 12px 24pt;
     cursor: pointer;
@@ -1502,7 +1502,7 @@ html {
 .btn-top:hover {
     background-color: #014421;
     opacity: 1;
-    color: #fff;
+    color: white;
 }
 
 .location {
@@ -1533,7 +1533,7 @@ html {
 
 .page-banner::before {
     content: '';
-    color: #ffffff;
+    color: white;
     font-size: 24pt;
     position: absolute;
     bottom: 0;
@@ -1750,7 +1750,7 @@ i.fa {
     font-family: Arial;
     font-size: 14px;
     background-color: #40c53a;
-    color: #FFFFFF;
+    color: white;
     border: none;
     padding: 12px 16px;
     cursor: pointer;
@@ -1758,13 +1758,13 @@ i.fa {
 }
 
 .btn:hover {
-    background-color: #4db748;opacity: 1;color: #fff;
+    background-color: #4db748;opacity: 1;color: white;
 }
 .e_mail_top {
     font-family: Arial;
     font-size: 14px;
     background-color: #00aeff !important;
-    color: #FFFFFF !important;
+    color: white !important;
     border: none;
     padding: 12px 16px;
     cursor: pointer;
