@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
@@ -123,7 +122,6 @@ html {
     margin: auto;
 }
 }
-
 
 /* footer */
 footer {
@@ -275,7 +273,6 @@ nav.navbar {
         z-index: 125;
     }
 
-    
 .navbar-dark .navbar-toggler {
     color: #ffffff;
     border-color: #000 !important;
@@ -315,7 +312,6 @@ box-shadow: none !important;
     justify-content: space-between;    
 }
 
-
 .navbar-brand p {
     all: unset;
 }
@@ -350,7 +346,6 @@ box-shadow: none !important;
 .navbar-brand p {
     color: white;
 }
-
 
 /* bootstrap button style overwritten */
 .btn-success {
@@ -889,7 +884,6 @@ width: 275px;
     }
 }
 
-
 @media only screen and (min-width: 1080px) {
     header .img-fluid{
         max-width: 580px;
@@ -900,7 +894,6 @@ width: 275px;
     }
 
 }
-
 
 .nav-item a {
     font-weight: normal;
@@ -952,7 +945,6 @@ width: 275px;
 .menu {
     overflow: hidden;
 }
-
 
 
 /*italicized texts changes here*/
@@ -1009,7 +1001,6 @@ i {
         animation: normal !important;
         text-decoration: none;
     }
-
 
     .menu-main > ul > li a:hover:after {
         width: 0%;
@@ -1159,7 +1150,6 @@ i {
     color: #f0b654;
 }
 
-
 .menu-table {
     margin: 0 auto;
 }
@@ -1239,7 +1229,6 @@ i {
         padding: 0 48pt;
     }
 }
-
 
 /* move to top button */
 .movetop {
@@ -1405,7 +1394,6 @@ i {
         bottom: -14.4pt;
     }
 }
-
 
 /*news banner*/
 .news-banner {
