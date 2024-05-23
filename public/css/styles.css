@@ -76,8 +76,7 @@ main.container {
     margin: 0 auto;
 }
 
-header
-{
+header {
 padding-top: 30px;
 }
 
@@ -116,7 +115,6 @@ html {
 }
 
 @media(max-width: 550px) {
-
 .location {
     width: fit-content;
     margin: auto;
@@ -279,7 +277,7 @@ nav.navbar {
     color: #ffffff;
     border-color: #000 !important;
     margin-right: 25px !important;
-box-shadow: none !important;
+    box-shadow: none !important;
     z-index: 130;
 }
 
@@ -871,13 +869,11 @@ box-shadow: none !important;
     padding:  63pt 4.5pt 50.25pt;
 }
 
-.menu
-{
+.menu {
 width: 275px;    
 }
 
-.menu-main > ul > li
-{
+.menu-main > ul > li {
     margin: 0;
 }
 
@@ -962,7 +958,6 @@ width: 275px;
 .menu {
     overflow: hidden;
 }
-
 
 /*italicized texts changes here*/
 i {
@@ -1100,6 +1095,7 @@ i {
     margin: 6pt;
     transition: 0.2s;
 }
+
 .menu-table .services p,
 .menu-table .services a {
     margin-top: 24pt;
@@ -1308,7 +1304,6 @@ i {
     color: white;
 }
 
-
 .links-vertical {
     flex-direction: row;
     gap: 3pt;
@@ -1388,6 +1383,7 @@ i {
     align-items: flex-start;
     position: relative;
 }
+
 .page-banner img {
     height: auto;
     width: 100vw;
@@ -1547,6 +1543,7 @@ i {
     left: -100%;
 }
 }
+
 .marquee {
 animation: marquee 10s linear infinite;
 -webkit-animation-delay: 0.5s;
