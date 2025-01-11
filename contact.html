@@ -3,14 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes"/>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TEMPLATE 3</title>
-    <meta name="HandheldFriendly" content="true"/>
-    <meta name="MobileOptimized" content="320"/>
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="320" />
 
-    <meta name="description"
-    content="Contact us">
+    <meta name="description" content="Contact us">
 
     <link rel="apple-touch-icon" sizes="180x180" href="public/icons/apple-touch-icon.png">
     <link rel="apple-touch-startup-image" href="public/img/white-banner.png">
@@ -21,7 +21,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="public/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="public/css/bootstrap.min.css">
@@ -34,12 +34,13 @@
             font-family: 'poppins';
             font-weight: 500 !important;
         }
+
         main a {
-            text-transform:unset !important;
+            text-transform: unset !important;
         }
 
-         /* Keep this css code below if you want the page banner */
-         .page-banner::before {
+        /* Keep this css code below if you want the page banner */
+        .page-banner::before {
             content: 'Contact Us';
             color: red;
         }
@@ -53,181 +54,186 @@
 
 <body>
 
-<div id="preloader">
-    <!-- unhide the code below to specify splash logo -->
-    <!-- <img src="public/img/" alt="Insert Loading logo"> -->
-</div>
+    <div id="preloader">
+        <!-- unhide the code below to specify splash logo -->
+        <!-- <img src="public/img/" alt="Insert Loading logo"> -->
+    </div>
 
-<nav class="navbar navbar-expand-lg navbar-color nav-mob scrollclick" id="nav">
-    <div class="container-fluid" id="navContainer">
+    <nav class="navbar navbar-expand-lg navbar-color nav-mob scrollclick" id="nav">
+        <div class="container-fluid" id="navContainer">
 
-        <div class="first-half">
-            <div class="brand-desk">
-                <a class="navbar-brand" href="index.html" target="_self">
-                    <!--once you have your img ready, delete the paragraph text, and unhide img-->
-                    <p>Insert Brand Logo</p>
-                    <!-- <img src="insert brand logo path link">  -->
-                </a>
+            <div class="first-half">
+                <div class="brand-desk">
+                    <a class="navbar-brand" href="index.html" target="_self">
+                        <!--once you have your img ready, delete the paragraph text, and unhide img-->
+                        <p>Insert Brand Logo</p>
+                        <!-- <img src="insert brand logo path link">  -->
+                    </a>
+                </div>
+                <div class="hide-menu a-nav-toggle"></div>
+
+                <div class="menu">
+
+                    <nav class="menu-main" id="accordion">
+                        <ul id="menuMain" class="navbar-nav d-flex flex-column ms-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html" target="_self">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contact.html" target="_self">CONTACT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="members.html" target="_self">MEMBERS DIRECTORY</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <button class="nav-toggle-btn a-nav-toggle">
+                    <span class="nav-toggle">
+                        <span class="stick stick-1"></span>
+                        <span class="stick stick-2"></span>
+                    </span>
+                </button>
+
             </div>
-            <div class="hide-menu a-nav-toggle"></div>
-    
-            <div class="menu">
-    
-              <nav class="menu-main" id="accordion">
-                <ul id="menuMain" class="navbar-nav d-flex flex-column ms-3">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html" target="_self">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="contact.html" target="_self">CONTACT US</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="members.html" target="_self">MEMBERS DIRECTORY</a>
-                    </li>
-                  </ul>
-              </nav>
         </div>
+    </nav>
 
-        <button class="nav-toggle-btn a-nav-toggle">
-            <span class="nav-toggle">
-              <span class="stick stick-1"></span>
-              <span class="stick stick-2"></span>
+    <div class="news-banner">
+        <div id="breaking-news-container">
+            <div id="breaking-news-colour" class="slideup animated">
+            </div>
+            <span class="breaking-news-title delay-animated slidein">
+                // BREAKING //
             </span>
-        </button>
-
+            <a class="breaking-news-headline delay-animated2 fadein marquee">
+                LOREM IPSUM
+            </a>
         </div>
     </div>
-</nav>
 
-<div class="news-banner">
-    <div id="breaking-news-container">
-        <div id="breaking-news-colour" class="slideup animated">  
-        </div>  
-        <span class="breaking-news-title delay-animated slidein">
-        // BREAKING //
-        </span> 
-        <a class="breaking-news-headline delay-animated2 fadein marquee">
-        LOREM IPSUM
-        </a>  
-    </div> 
-</div>
-
-<!--page banner with text header below-->
-<!--
+    <!--page banner with text header below-->
+    <!--
 <div class="page-banner">
     <img src="public/banners/contact-banner.jpg" alt="page banner">
 </div>
 -->
 
-<!--normal text header below-->
-<div class="header">
-    <!--change color of the page header by replacing unset value below-->
-    <h1 class="fw-bold title-bg-black" style="color: white;">CONTACT US</h1>
-</div>
-
-<div class="review-slider">
-    <p>SLIDER NAME</p>
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-                <p>Insert image</p>
-            </div>
-            <div class="swiper-slide">
-                <p>Insert image</p>
-            </div>
-            <div class="swiper-slide">
-                <p>Insert image</p>
-            </div>
-            <div class="swiper-slide">
-                <p>Insert image</p>
-            </div>
-        </div>
-    
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-    </div>
+    <!--normal text header below-->
+    <div class="header">
+        <!--change color of the page header by replacing unset value below-->
+        <h1 class="fw-bold title-bg-black" style="color: white;">CONTACT US</h1>
     </div>
 
-<div class="text-center">
-    <div class="buttons-section-index">
-    <div class="buttons-ver-hor">
-    <a  class="btn-top" href="" rel="nofollow"><i class="fa fa-shopping-cart"></i>PURCHASE MERCHANDISE
-    </a>
-    <a  class="btn-top" href="" rel="nofollow"><i class="fa fa-money"></i>DONATION
-    </a>
-    </div>
-    <a  class="btn-top" href="" rel="nofollow"><i class="fa fa-credit-card-alt"></i>PURCHASE GIFT CARDS
-    </a>
-    </div>
-</div>
+    <div class="review-slider">
+        <p>SLIDER NAME</p>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
 
-<div class="d-flex justify-content-center align-items-center flex-wrap links-vertical">
-    <div style="margin-bottom: 37px; margin-top: 37px;">
-        <div style="text-align: center; justify-content: center;">
-            <a class="btn" href="tel:insert-number"><i class="fa fa-phone"></i> 
-                CALL US</a>
+                <div class="swiper-slide">
+                    <p>Insert image</p>
+                </div>
+                <div class="swiper-slide">
+                    <p>Insert image</p>
+                </div>
+                <div class="swiper-slide">
+                    <p>Insert image</p>
+                </div>
+                <div class="swiper-slide">
+                    <p>Insert image</p>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </div>
-    <!-- <div>
+
+    <div class="text-center">
+        <div class="buttons-section-index">
+            <div class="buttons-ver-hor">
+                <a class="btn-top" href="" rel="nofollow"><i class="fa fa-shopping-cart"></i>PURCHASE MERCHANDISE
+                </a>
+                <a class="btn-top" href="" rel="nofollow"><i class="fa fa-money"></i>DONATION
+                </a>
+            </div>
+            <a class="btn-top" href="" rel="nofollow"><i class="fa fa-credit-card-alt"></i>PURCHASE GIFT CARDS
+            </a>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center flex-wrap links-vertical">
+        <div style="margin-bottom: 37px; margin-top: 37px;">
+            <div style="text-align: center; justify-content: center;">
+                <a class="btn" href="tel:insert-number"><i class="fa fa-phone"></i>
+                    CALL US</a>
+            </div>
+        </div>
+        <!-- <div>
         <a class="btn" href="sms:insert-number"><i class="fa fa-comment"></i> 
             TEXT US</a>
     </div> -->
-    <div>
-        <div style="text-align: center; justify-content: center;">
-            <a class="e_mail_top btn" href="mailto:insert-email@example.com"><i class="fa fa-envelope"></i>
-                E-MAIL US</a>
+        <div>
+            <div style="text-align: center; justify-content: center;">
+                <a class="e_mail_top btn" href="mailto:insert-email@example.com"><i class="fa fa-envelope"></i>
+                    E-MAIL US</a>
+            </div>
         </div>
     </div>
-</div>
 
-<div style="text-align: center; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; width: 100%;">
-    <a href="facebook link" class="icon-button facebook" target=”_blank”><i class="fa fa-facebook"></i><span></span></a>
-    <a href="twitter link" class="icon-button twitter" target=”_blank”><i class="fa fa-twitter"></i><span></span></a>
-    <a href="linkedin link" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
-</div>
-<main class="container">
-    <div class="text-center custompadding centered-content location">
-        <p class="text-decoration-none" style="font-family: 'Poppins'; font-size:14px; width: 90%; margin: auto; text-align: center; font-weight: 500;">
-        lorem ipsum
-        </p>
+    <div
+        style="text-align: center; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; width: 100%;">
+        <a href="facebook link" class="icon-button facebook" target=”_blank”><i
+                class="fa fa-facebook"></i><span></span></a>
+        <a href="twitter link" class="icon-button twitter" target=”_blank”><i
+                class="fa fa-twitter"></i><span></span></a>
+        <a href="linkedin link" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
     </div>
-    <!-- <div class="col-12 my-4 header my-5 location fw-bold" style="position: relative; top: 5px;">
+    <main class="container">
+        <div class="text-center custompadding centered-content location">
+            <p class="text-decoration-none"
+                style="font-family: 'Poppins'; font-size:14px; width: 90%; margin: auto; text-align: center; font-weight: 500;">
+                lorem ipsum
+            </p>
+        </div>
+        <!-- <div class="col-12 my-4 header my-5 location fw-bold" style="position: relative; top: 5px;">
         <br>
         <p class="bitter fw-bold" style="font-size:14px; border: #33ff33 solid 2px; margin-bottom: 12pt; border-radius: 6pt; padding: 6pt; line-height: 2;">
         Insert Additional Information
         </p>
     </div> -->
-    </div>
-</main>
-<footer>
-    <div class="movetop">
-        <a href="#top">Back to top</a>
-    </div>
-</div>
-</footer>
+        </div>
+    </main>
+    <footer>
+        <div class="movetop">
+            <a href="#top">Back to top</a>
+        </div>
+        </div>
+    </footer>
 
-<a href="#nav" class="circle-top">
-<i class="fa fa-arrow-up"></i>
-</a>
+    <a href="#nav" class="circle-top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
 
-<!-- SECONDARY SCRIPTS-->
-<script src="public/js/bootstrap.bundle.min.js"></script>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
+    <!-- SECONDARY SCRIPTS-->
+    <script src="public/js/bootstrap.bundle.min.js"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
         nonce="y6OzJpbr"></script>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script src="public/js/main.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="public/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
- <script>
-    var swiper = new Swiper(".mySwiper", {
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      loop: true
-    });
-  </script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            loop: true
+        });
+    </script>
 
 </body>
+
 </html>
