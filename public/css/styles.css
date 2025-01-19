@@ -729,6 +729,7 @@ nav.navbar {
 
 .body-menu-opened .navbar {
     border: 0px !important;
+    position: fixed;
 }
 
 @media (min-width: 576px) {
@@ -944,8 +945,8 @@ nav.navbar {
     flex-direction: column;
     /* justify-content: center;
     align-items: center; */
-    height: 150vh;
-    position: absolute;
+    height: 100vh;
+    position: fixed;
 }
 
 .menu * {
